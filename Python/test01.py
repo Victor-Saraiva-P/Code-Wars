@@ -1,2 +1,8 @@
-input = [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
-print(len(input))
+def lovefunc(flower1, flower2):
+    if flower1 % 2 == 0 and flower2 % 2 != 0:
+        return True
+    elif flower2 % 2 == 0 and flower1 % 2 != 0:
+        return True
+    else:
+      return False
+print(lovefunc(2,2))
