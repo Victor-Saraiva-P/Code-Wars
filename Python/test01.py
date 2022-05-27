@@ -1,10 +1,4 @@
-from typing import Reversible
+alguma_coisa = [
+    c for c in "This website is for losers LOL!" if c.lower() not in "aeiou"]
 
-
-def digitize(n):
-    lista = []
-    for i in reversed(str(n)):
-        lista.append(int(i))
-    return lista
-
-digitize(348597)
+print("Hello WOlrd!!@#")
