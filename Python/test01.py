@@ -1,4 +1,10 @@
-alguma_coisa = [
-    c for c in "This website is for losers LOL!" if c.lower() not in "aeiou"]
+from math import sqrt
 
-print("Hello WOlrd!!@#")
+
+def is_square(n):
+    if n < 0:
+        return False
+    return (True if sqrt(n) % 1 == 0 else False)
+
+
+print(is_square(0))
